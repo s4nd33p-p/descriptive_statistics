@@ -166,6 +166,6 @@ if __name__ == '__main__':
 	print("----------------------------")
 	print("chebyshevs result :")
 	print(str(ob.chebyshevs_result()[0])+"  percentile of data is between intervals "+str(ob.chebyshevs_result()[1][0])+" and "+str(ob.chebyshevs_result()[1][1]))
-	# ob.pieplot()
+	ob.pieplot()
 	ob.bargraph()
 	ob.scatter_plt()
